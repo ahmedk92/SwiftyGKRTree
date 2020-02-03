@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftyGKRTree_Example' do
+  pod 'SwiftyGKRTree', :path => '../'
+
+  target 'SwiftyGKRTree_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
