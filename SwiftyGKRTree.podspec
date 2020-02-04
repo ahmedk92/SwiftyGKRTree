@@ -25,6 +25,7 @@ GKRTree deal with any Swift type, while maintaining correct behavior.
   s.social_media_url = 'https://twitter.com/ahmedkhalaf_92'
 
   s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'SwiftyGKRTree/Classes/**/*'
   
