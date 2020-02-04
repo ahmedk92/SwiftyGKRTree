@@ -5,11 +5,16 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftyGKRTree.svg?style=flat)](https://cocoapods.org/pods/SwiftyGKRTree)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyGKRTree.svg?style=flat)](https://cocoapods.org/pods/SwiftyGKRTree)
 
-## Example
+## Why
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+GameKit's [RTree class](https://developer.apple.com/documentation/gameplaykit/gkrtree) only accepts `NSObject` subclasses.
+This small library aims to provide conveniences to make GKRTree deal with any Swift type, while maintaining correct behavior.
 
-## Requirements
+## Why use an R-Tree?
+R-Trees offer efficient data lookup within a rectangle.
+There are uses cases for this.
+The one I specifically wrote this wrapper for is storing data for retrieval for `CATiledLayer`s. 
+
 
 ## Installation
 

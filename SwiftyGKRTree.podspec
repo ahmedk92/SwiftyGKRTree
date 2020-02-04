@@ -9,16 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyGKRTree'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftyGKRTree.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = "A Swifty wrapper for GameKit's R-Tree data structure"
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+GameKit's RTree class only accepts NSObject subclasses.
+This small library aims to provide conveniences to make
+GKRTree deal with any Swift type, while maintaining correct behavior.
                        DESC
 
   s.homepage         = 'https://github.com/ahmedk92/SwiftyGKRTree'
@@ -26,9 +22,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ahmedk92' => 'ahmedkhalaf.92@gmail.com' }
   s.source           = { :git => 'https://github.com/ahmedk92/SwiftyGKRTree.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/ahmedkhalaf_92'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'SwiftyGKRTree/Classes/**/*'
   
